@@ -1,0 +1,5 @@
+import paho.mqtt.publish as publish
+
+publish.single("ifn649", "LED_ON", hostname="13.239.113.88")
+
+print("Sent LED_ON to topic ifn649")
