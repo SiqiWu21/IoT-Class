@@ -1,3 +1,7 @@
+#This code is designed to connect to the MQTT server and subscribe to the topic "ifn649".
+# Through AWS ec2 instance IP, the client connects to the server. 
+#When a message is received, it is sent to the serial port.
+
 import paho.mqtt.client as mqtt
 
 # The callback for when the client receives a CONNACK response from the server.
